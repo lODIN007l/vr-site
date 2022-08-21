@@ -11,11 +11,11 @@ const Headsets = () => {
         {/* titulo */}
         <h2 className="text-3xl font-bold mb-6 ">Mixed Reality Headsets</h2>
         {/* grid */}
-        <div>
+        <div className="grid gap-y-4 lg:grid-cols-2 lg:gap-9">
           {/* items */}
           <div className="relative">
             <img src={Headset1} alt="" />
-            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] py-6">
+            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6">
               <h4 className="font-semibold text-xl mb-2">Metaverse</h4>
               <p className="">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
@@ -28,7 +28,7 @@ const Headsets = () => {
           {/* item2 */}
           <div className="relative">
             <img src={Headset2} alt="" />
-            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] py-6">
+            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6">
               <h4 className="font-semibold text-xl mb-2">AIoT</h4>
               <p className="">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
@@ -38,11 +38,24 @@ const Headsets = () => {
               </p>
             </div>
           </div>
-          {/* items */}
+          {/* items 3*/}
           <div className="relative">
             <img src={Headset3} alt="" />
-            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] py-6">
-              <h4 className="font-semibold text-xl mb-2">Metaverse</h4>
+            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6">
+              <h4 className="font-semibold text-xl mb-2">HoloLens</h4>
+              <p className="">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+                eius nesciunt quo voluptate nemo a fugiat autem. Sed ducimus
+                placeat, ratione, odio suscipit debitis exercitationem eos odit
+                impedit numquam laudantium?
+              </p>
+            </div>
+          </div>
+          {/* items 4*/}
+          <div className="relative">
+            <img src={Headset4} alt="" />
+            <div className="absolute bottom-0 bg-white/20 backdrop-blur-md max-w-[300px] min-h-[150px] p-6">
+              <h4 className="font-semibold text-xl mb-2">TPCASTT</h4>
               <p className="">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
                 eius nesciunt quo voluptate nemo a fugiat autem. Sed ducimus
