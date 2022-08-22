@@ -7,6 +7,7 @@ import NavMobile from "./components/NavMobile";
 import Video from "./components/Video";
 import Headsets from "./components/Headsets";
 import Testimonial from "./components/Testimonial";
+import Explore from "./components/Explore";
 
 function App() {
   const [navegar, setNavegar] = useState(false);
@@ -25,6 +26,7 @@ function App() {
       <Video />
       <Headsets />
       <Testimonial />
+      <Explore />
     </div>
   );
 }
