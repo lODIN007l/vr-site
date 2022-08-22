@@ -26,7 +26,10 @@ const TestimonialSlider = () => {
         //destruture slide
         const { message, image, name, email } = slide;
         return (
-          <SwiperSlide className="rounded-lg p-4 lg:p-6 min-h-[240px] bg-gradient-to-t from-[#130613] via-[#2A1428] to-[#331A35]">
+          <SwiperSlide
+            className="rounded-lg p-4 lg:p-6 min-h-[240px] bg-gradient-to-t from-[#130613] via-[#2A1428] to-[#331A35]"
+            key={index}
+          >
             <p className="mb-8 min-h-[100px] text-[15px]">{message}</p>
             <div className="flex flex-col gap-x-4 md:flex-row md:items-center">
               <div className="w-14">
