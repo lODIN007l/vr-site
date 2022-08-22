@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import NavMobile from "./components/NavMobile";
 import Video from "./components/Video";
 import Headsets from "./components/Headsets";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   const [navegar, setNavegar] = useState(false);
@@ -23,6 +24,7 @@ function App() {
       <Experience />
       <Video />
       <Headsets />
+      <Testimonial />
     </div>
   );
 }
