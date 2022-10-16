@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+/*
+html,body {
+    height: 100%;
+}
+body {
+    background: #0f3854;
+    background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+    background-size: 100%;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+#clock {
+    font-family: 'Silkscreen', cursive;
+    text-shadow: 0 0 20px #f50056,  0 0 20px #47202e;
+    color: #fb0b60;
+    background: none;
+
+    .time {
+        letter-spacing: 0.05em;
+        padding: 5px 0;
+    }
+
+    .zone {
+        letter-spacing: 0.1em;
+
+    }
+
+}

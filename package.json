@@ -1,5 +1,5 @@
 {
-  "name": "vrsite",
+  "name": "y",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -25,5 +25,17 @@
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
     "vite": "^3.0.7"
-  }
+  },
+  "description": "Website with React and TailwindCS",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lODIN007l/vr-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lODIN007l/vr-site/issues"
+  },
+  "homepage": "https://github.com/lODIN007l/vr-site#readme"
 }
