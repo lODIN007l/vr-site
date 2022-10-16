@@ -12,6 +12,9 @@ import Explore from "./components/Explore";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+//Zone Clock
+import ZoneClock from "./components/ZoneClock";
+
 function App() {
   const [navegar, setNavegar] = useState(false);
   //configuracion inicial aos
@@ -22,6 +25,7 @@ function App() {
   return (
     <div className=" relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-circle before:bg-no-repeat before:absolute before:-top-16 before:left-[600px]  before:hidden before:lg:flex">
       <Header setNavegar={setNavegar} />
+      <ZoneClock />
       <Banner />
       <div
         className={`${
