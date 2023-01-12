@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '2a53760b-e2ff-4697-a142-4b569782fdb6'
-  imageRepository: 'lodinlvrsite'
+  imageRepository: 'lodin007l/vr-sitio'
   containerRegistry: 'myaksclusterbcde.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
